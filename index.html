@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andela first work</title>
     
@@ -11,16 +10,18 @@
 </head>
 
 <body>
-    <div id="navbar" onclick="changebackground()">
-        <p id="myName">DAMASCENE Mukeshimana</p>
+    <div id="navbar" >
+        <p id="myName" onclick="changebackground()">DAMASCENE Mukeshimana</p>
         <p id="myTitle" >Senior Product Designer</p>
         
 <img class="imageRadius" src="usablepictures/dms.jpg" width="80px" height="80px" alt="My photo">
       </div>
 
 
-<div id="informationDiv">
 
+
+
+<div style="overflow:auto" id="containerDiv">
 <div id="firstInformationDiv">
 
   <p class="notFullBlack">EXPERIENCE</p>
@@ -102,7 +103,7 @@
 
 <script type="text/javascript">
     function changebackground(){
-document. getElementById('navbar'). style. backgroundColor = 'green' ;
+document. getElementById('myName'). style. color = 'pink' ;
 }
 </script>
 
