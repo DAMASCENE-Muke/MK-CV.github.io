@@ -9,7 +9,7 @@ body{
 }
 #navbar {
     overflow: hidden;
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 255);
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
@@ -18,7 +18,7 @@ body{
   }
   #navbar img {
     float: right;
-    margin-right: 27%;
+    margin-right: 23%;
     
   }
 
@@ -43,20 +43,22 @@ body{
  
   }
   #containerDiv{
-    height: 700px;
-    background-color: red;
+    height: 700p;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   
 #firstInformationDiv {
   float: left;
-  margin-left: 15%;
-  width: 45%;
+  margin-left: 3%;
+  width: 65%;
   background-color:rgb(255,255,255);
 }
 #secondInformationDiv {
     float: left;
-    margin-right: 15%;
-    width: 25%;
+    margin-right: 3%;
+    width: 29%;
     background-color:rgb(255, 255, 255);
       }
 
